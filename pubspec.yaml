@@ -1,0 +1,55 @@
+name: book_my_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # added
+  firebase_auth: ^0.14.0+5
+  google_sign_in: ^4.4.4
+  firebase_database: 3.1.6
+  firebase_analytics: ^5.0.2
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - res/coffee.jpeg
+    - res/klara.jpeg
+    - res/girl.jpeg
+    - res/life.jpeg
+    - res/rude.jpeg
+    - res/silence.jpeg
+    - res/species.jpeg
+    - res/taonv.jpeg
+    - res/think.jpeg
+    - res/logo.png
+    - res/bit.jpg
+    - res/bit2.jpg
+
+  fonts:
+    - family: Andada
+      fonts:
+        - asset: fonts/AndadaPro-Medium.ttf
+    - family: Gowun
+      fonts:
+        - asset: fonts/GowunDodum-Regular.ttf
+    - family: Tangerine
+      fonts:
+        - asset: fonts/Tangerine-Regular.ttf
